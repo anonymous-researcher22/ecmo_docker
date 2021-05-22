@@ -89,7 +89,14 @@ void lua_write_memory(uint64_t, uint8_t *, size_t);
 
 void lua_init_ic_timer_uart(uint64_t,int,int);
 void lua_load_file(const char *, uint64_t);
+void lua_init_nic(uint64_t, int);
 ]]
+
+
+
+function lua_init_nic(base,irq)
+    C.lua_init_nic(base,irq)
+end
 
 function lua_init_ic_timer_uart(base,it_shift,irq)
     C.lua_init_ic_timer_uart(base,it_shift,irq)

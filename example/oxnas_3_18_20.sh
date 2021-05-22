@@ -1,0 +1,1 @@
+./qemu-system-arm -kernel images/oxnas_3_18_20.uimage -M luaarm -nographic -m 4G -lua scripts/oxnas_3_18_20.lua -dtb dtbs/oxnas.dtb -initrd rootfs/oxnas_3_18_20.cpio -append "console=ttyS0 nowatchdog nokaslr"
