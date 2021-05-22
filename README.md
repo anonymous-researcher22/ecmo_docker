@@ -1,5 +1,5 @@
 # Supplementary Material 
-This repository is used to our paper submitted to ATC'21. We release a Docker image that contains the ECMO system for a test run.
+This repository is used to our paper submitted to CCS'21. We release a Docker image that contains the ECMO system for a test run.
 
 ## Usage 
 ### Build and enter the Docker
