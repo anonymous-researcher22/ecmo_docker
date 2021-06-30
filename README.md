@@ -17,4 +17,5 @@ docker run --rm -it your-docker-name:latest /bin/bash
 The username is root and no password is required.
 
 You will notice the following image
-![Kernel is rehosted successfully](example.png)
+![Kernel is rehosted successfully](example1.png)
+![Network Device works](example2.png)
